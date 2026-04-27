@@ -1,0 +1,10 @@
+root:x:toor
+admin:x:Admin@1234
+ubuntu:x:ubuntu
+mysql:x:mysql
+devops:x:devops123
+backup:x:backup123
+oracle:x:oracle
+git:x:git
+jenkins:x:jenkins
+nigga:x:*

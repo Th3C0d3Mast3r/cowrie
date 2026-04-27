@@ -1,0 +1,14 @@
+/dev/sda1 on / type ext4 (rw,relatime,errors=remount-ro)
+/dev/sda2 on /data type ext4 (rw,relatime)
+/dev/sda3 on /backup type ext4 (rw,relatime)
+
+/dev/mapper/vg0-swap on none type swap (sw)
+
+/dev/mapper/vg0-root on / type ext4 (rw)
+/dev/mapper/vg0-data on /data type ext4 (rw)
+
+proc on /proc type proc (rw,nosuid,nodev,noexec,relatime)
+sysfs on /sys type sysfs (rw,nosuid,nodev,noexec,relatime)
+tmpfs on /run type tmpfs (rw,nosuid,nodev,mode=755)
+tmpfs on /dev/shm type tmpfs (rw,nosuid,nodev)
+/dev/sda1 on /var/lib/docker type ext4 (rw,relatime)

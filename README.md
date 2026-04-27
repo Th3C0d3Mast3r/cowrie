@@ -1,0 +1,17 @@
+# Cowrie
+
+The following is a custom version of Cowrie, that I am making- its docker image for direct pull and run will be available here
+
+> [!WARNING]
+> Keep in mind, this cowrie image is not in track with the updates with respect to the actual cowrie. To see the real and updated cowrie repo, check out the real repo present here => 
+
+So yes, real creds to the Maintainer of Cowrie and the collaborators of cowrie. I cannot be called as a CONTRIBUTOR as am not contributing some new feature there, but am contributing my version of real interactive version of cowrie -(well, if this was a feature of real cowrie- then am sorry, but the real cowrie maintainers wrote some sloppy documentation where I couldn't find such things!)*
+
+Also, check this [README.rst](./README.rst) -  the actual README that was written by the makers of `cowrie` -  I had to change the readme, because, tbh, it seemed kinda too long. This is my version of cowrie  ;)
+
+## CUSTOMIZING YOUR OWN VERSION
+
+## BUIDLING CUSTOM IMAGE
+
+## YOUR VERSION OF COWRIE
+Well, if you make some similar version of cowrie, where you have added some more things and stuff, and wish to share, write it in `Issues` so other peeps can see it and use it - even ur docker image can be pulled if u wish to make it public! 

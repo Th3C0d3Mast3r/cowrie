@@ -1,0 +1,17 @@
+
+Welcome to Ubuntu 24.04.2 LTS (GNU/Linux 6.17.0-14-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/pro
+
+Expanded Security Maintenance for Applications is not enabled.
+
+208 updates can be applied immediately.
+To see these additional updates run: apt list --upgradable
+
+1 additional security update can be applied with ESM Apps.
+Learn more about enabling ESM Apps service at https://ubuntu.com/esm
+
+* System restart required *
+Last login: Sun Apr 26 12:14:08 2026 from 120.58.6.56
