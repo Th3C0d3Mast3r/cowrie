@@ -1,9 +1,8 @@
-Filesystem                                                Size   Used  Avail Use% Mounted on
-/dev/sda1                                                30T     8.4T   21T   29% /
-/dev/sda2                                                30T     8.4T   21T   29% /data
-udev                                                     32G        0    32G    0% /dev
-tmpfs                                                    32G      120M   32G    1% /run
-tmpfs                                                   128G        0   128G    0% /dev/shm
-/dev/disk/by-uuid/9f2c1b8a-8c1d-4a91-8f12-acde12345678  30T     8.4T   21T   29% /
-tmpfs                                                    10M        0    10M    0% /run/lock
-tmpfs                                                    32G        0    32G    0% /run/user/1000
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs            13G  1.2M   13G   1% /run
+/dev/sda2       450G   24G  404G   6% /
+tmpfs            63G     0   63G   0% /dev/shm
+tmpfs           5.0M     0  5.0M   0% /run/lock
+/dev/sda1       1.1G  120M  850M  13% /boot
+/dev/sdb1       9.1T  1.2T  7.4T  14% /data
+tmpfs            13G   12K   13G   1% /run/user/0
