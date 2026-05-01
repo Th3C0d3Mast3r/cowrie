@@ -1,1 +1,127 @@
-32
+LINK_MAX                           65000
+_POSIX_LINK_MAX                    65000
+MAX_CANON                          255
+_POSIX_MAX_CANON                   255
+MAX_INPUT                          255
+_POSIX_MAX_INPUT                   255
+NAME_MAX                           255
+_POSIX_NAME_MAX                    255
+PATH_MAX                           4096
+_POSIX_PATH_MAX                    4096
+PIPE_BUF                           4096
+_POSIX_PIPE_BUF                    4096
+_POSIX_CHOWN_RESTRICTED            1
+_POSIX_NO_TRUNC                    1
+_POSIX_VDISABLE                    0
+ARG_MAX                            2097152
+ATEXIT_MAX                         2147483647
+CHAR_BIT                           8
+CHAR_MAX                           127
+CHAR_MIN                           -128
+CHILD_MAX                          26250
+CLK_TCK                            100
+INT_MAX                            2147483647
+INT_MIN                            -2147483648
+IOV_MAX                            1024
+LOGNAME_MAX                        256
+LONG_BIT                           64
+MB_LEN_MAX                         16
+NGROUPS_MAX                        65536
+NL_ARGMAX                          4096
+NL_LANGMAX                         2048
+NL_MSGMAX                          2147483647
+NL_NMAX                            2147483647
+NL_SETMAX                          2147483647
+NL_TEXTMAX                         2147483647
+NSS_BUFLEN_GROUP                   1024
+NSS_BUFLEN_PASSWD                  1024
+NZERO                              20
+OPEN_MAX                           1024
+PAGESIZE                           4096
+PAGE_SIZE                          4096
+PASS_MAX                           8192
+PTHREAD_DESTRUCTOR_ITERATIONS      4
+PTHREAD_KEYS_MAX                   1024
+PTHREAD_STACK_MIN                  16384
+SCHAR_MAX                          127
+SCHAR_MIN                          -128
+SHRT_MAX                           32767
+SHRT_MIN                           -32768
+SSIZE_MAX                          32767
+TTY_NAME_MAX                       32
+UCHAR_MAX                          255
+UINT_MAX                           4294967295
+UIO_MAXIOV                         1024
+ULONG_MAX                          18446744073709551615
+USHRT_MAX                          65535
+WORD_BIT                           32
+
+_AVPHYS_PAGES                      30124567
+_PHYS_PAGES                        33554432
+
+_NPROCESSORS_CONF                  40
+NPROCESSORS_CONF                   40
+_NPROCESSORS_ONLN                  40
+NPROCESSORS_ONLN                   40
+
+_POSIX_ARG_MAX                     2097152
+_POSIX_CHILD_MAX                   26250
+_POSIX_NGROUPS_MAX                 65536
+_POSIX_OPEN_MAX                    1024
+_POSIX_STREAM_MAX                  16
+_POSIX_VERSION                     200809
+
+_XOPEN_VERSION                     700
+
+BC_BASE_MAX                        99
+BC_DIM_MAX                         2048
+BC_SCALE_MAX                       99
+BC_STRING_MAX                      1000
+CHARCLASS_NAME_MAX                 2048
+COLL_WEIGHTS_MAX                   255
+EXPR_NEST_MAX                      32
+LINE_MAX                           2048
+POSIX2_LINE_MAX                    2048
+POSIX2_RE_DUP_MAX                  32767
+RE_DUP_MAX                         32767
+
+PATH                               /bin:/usr/bin
+CS_PATH                            /bin:/usr/bin
+
+GNU_LIBC_VERSION                   glibc 2.31
+GNU_LIBPTHREAD_VERSION             NPTL 2.31
+
+LEVEL1_ICACHE_SIZE                 32768
+LEVEL1_ICACHE_LINESIZE             64
+LEVEL1_DCACHE_SIZE                 32768
+LEVEL1_DCACHE_ASSOC                8
+LEVEL1_DCACHE_LINESIZE             64
+
+LEVEL2_CACHE_SIZE                  1048576
+LEVEL2_CACHE_ASSOC                 16
+LEVEL2_CACHE_LINESIZE              64
+
+LEVEL3_CACHE_SIZE                  50331648
+LEVEL3_CACHE_ASSOC                 20
+LEVEL3_CACHE_LINESIZE              64
+
+STREAM_MAX                         16
+HOST_NAME_MAX                      64
+LOGIN_NAME_MAX                     256
+
+RTSIG_MAX                          32
+SEM_VALUE_MAX                      2147483647
+SIGQUEUE_MAX                       26250
+
+FILESIZEBITS                       64
+POSIX_ALLOC_SIZE_MIN               4096
+
+POSIX_REC_MIN_XFER_SIZE            4096
+POSIX_REC_XFER_ALIGN               4096
+
+POSIX2_SYMLINKS                    1
+
+IPV6                               200809
+RAW_SOCKETS                        200809
+_POSIX_IPV6                        200809
+_POSIX_RAW_SOCKETS                 200809
