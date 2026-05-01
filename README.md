@@ -21,5 +21,11 @@ Well, I edited the actual repo of `cowrie` to get the current version. Finding w
 
 ## BUIDLING CUSTOM IMAGE
 
+## CHANGELOG
+Checkout the changelog. Every version here, would also be there on DockerHub. So check that out- that is, to pull it, just go to your terminal and type:- `docker pull dcodemaster/cowrie:<version>`
+
+- `v0.1` [1st May, 2026] => Proper working `top` with `lscpu`, and other commands showing realistic server format
+- `v0.2` [TBA] => `nano`, and other interactive commands simulated.
+
 ## YOUR VERSION OF COWRIE
 Well, if you make some similar version of cowrie, where you have added some more things and stuff, and wish to share, write it in `Issues` so other peeps can see it and use it - even ur docker image can be pulled if u wish to make it public! 
