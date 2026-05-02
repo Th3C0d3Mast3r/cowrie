@@ -20,6 +20,16 @@ Well, I edited the actual repo of `cowrie` to get the current version. Finding w
 
 
 ## BUIDLING CUSTOM IMAGE
+**LOCAL IMAGE:**
+- Clone the repo from `cowrie/cowrie` and make the suitable changes in the repo locally
+- Then, reach the `git` repo location in terminal, and run- `docker build --no-cache -t custom-cowrie -f docker/Dockerfile .`
+- Once image is built, confirm by typing `sudo docker images`. You should see `custom-cowrie`
+- After this, run for local testing- `docker run -d -p 2222:2222 --name testCowrie custom-cowrie`
+- Check the running container by `sudo docker ps` and once it is running, ssh into it by `ssh root@localhost -p 2222`
+- On the other terminal *(Ctrl+Shift+T)*, see the logs- `sudo docker logs -f <container-name>`
+
+**DOCKERHUB IMAGE:**
+
 
 ## CHANGELOG
 Checkout the changelog. Every version here, would also be there on DockerHub. So check that out- that is, to pull it, just go to your terminal and type:- `docker pull dcodemaster/cowrie:<version>`
@@ -27,5 +37,5 @@ Checkout the changelog. Every version here, would also be there on DockerHub. So
 - `v0.1` [1st May, 2026] => Proper working `top` with `lscpu`, and other commands showing realistic server format
 - `v0.2` [TBA] => `nano`, and other interactive commands simulated.
 
-## YOUR VERSION OF COWRIE
+## SHARE YOUR VERSION OF COWRIE
 Well, if you make some similar version of cowrie, where you have added some more things and stuff, and wish to share, write it in `Issues` so other peeps can see it and use it - even ur docker image can be pulled if u wish to make it public! 
